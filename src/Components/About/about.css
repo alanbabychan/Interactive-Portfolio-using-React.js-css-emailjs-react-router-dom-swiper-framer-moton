@@ -1,0 +1,124 @@
+.about {
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    height: 120vh;
+    position: relative;
+}
+
+.about-right {
+    position: relative;
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.about-mainCircle {
+    position: relative;
+    width: 18rem;
+    height: 18rem;
+    border-radius: 100%;
+    box-shadow: var(--smboxShadow);
+    background: white;
+    box-shadow: 0 0 80px 2px var(--orange);
+    animation: rotate 20s linear infinite;
+    margin-top: 4cm; 
+    margin-left: 1.5cm;
+}
+
+.about-mainCircle > * {
+    position: absolute;
+}
+
+.about-mainCircle > :nth-child(1) {
+    top: -3rem;
+    left: 6rem;
+}
+
+.about-mainCircle > :nth-child(2) {
+    top: 5rem;
+    left: -3rem;
+}
+
+.about-mainCircle > :nth-child(3) {
+    top: 5.4rem;
+    left: 6rem;
+}
+
+.about-mainCircle > :nth-child(4) {
+    top: 5.5rem;
+    left: 15rem;
+}
+
+.about-mainCircle > :nth-child(5) {
+    top: 14rem;
+    left: 5.8rem;
+}
+
+.about-secCircle {
+    width: 6rem;
+    height: 6rem;
+    position: absolute;
+    border-radius: 100%;
+    border: 5px solid #ebebeb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    box-shadow: var(--smboxShadow);
+    background-color: white;
+    transform: scale(0.7);
+}
+
+.about-secCircle > img {
+    transform: scale(3.5);
+}
+
+.about-backCircle {
+    position: absolute;
+    height: 13rem;
+    width: 13rem;
+    border-radius: 100%;
+    z-index: -1;
+}
+
+.blueCircle {
+    background: #1949bb;
+    right: 10px; /* 1cm to the right */
+    top: 10px; /* 1cm down */
+}
+
+.yellowCircle {
+    background: #f5c32c;
+    right: 10px; /* 1cm to the right */
+    top: calc(8rem + 10px); /* 1cm down */
+}
+
+@media screen and (max-width: 480px) {
+    .about {
+        flex-direction: column;
+        height: 55rem;
+        padding: 0;
+        gap: 5rem;
+    }
+    .about-right {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        transform: scale(0.7);
+    }
+    .about-mainCircle {
+        left: 0.5rem;
+    }
+    .about-backCircle {
+        left: 10rem !important;
+    }
+}

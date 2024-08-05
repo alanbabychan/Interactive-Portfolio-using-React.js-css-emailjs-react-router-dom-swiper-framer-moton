@@ -1,0 +1,89 @@
+.navbar-wrapper{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-left{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    gap: 2rem;
+}
+
+.navbar-name1{
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--textColor1);
+    transition: transform 0.3s ease, text-shadow 0.5s ease; 
+    cursor: pointer;
+}
+.navbar-name1::first-letter{
+    color: var(--textColor2);
+}
+.navbar-name1:hover{
+    transform: scale(1.1);
+    text-shadow: -6px -2px 12px var(--textColor2);
+}
+
+.navbar-name2{
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--textColor3);
+    transition: transform 0.3s ease, text-shadow 0.5s ease; 
+    cursor: pointer
+}
+.navbar-name2::first-letter{
+    color: var(--textColor2);
+}
+.navbar-name2:hover{
+    transform: scale(1.1);
+    text-shadow: -6px -2px 12px var(--textColor2);
+}
+
+.navbar-right{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+}
+.navbar-list{
+    flex: 10;
+}
+.navbar-list>ul{
+    display: flex;
+    gap: 1rem;
+    margin-right: 4rem;
+}
+.navbar-list>ul li:hover{
+    cursor: pointer;
+    color: var(--textColor2);
+}
+.navbar-button{
+    flex: 2;
+    font-weight: bold;
+}
+.contact-button{
+    background: var(--orange);
+    border-radius: 30px;
+    padding: 10px 30px;
+    cursor: pointer;
+    outline: none;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(180deg , #fdc50f 26.71% , #fb982f 99.36%);
+    box-shadow: 0px 20px 24px 3px rgba(251, 161, 40, 0.42);
+    width: 10rem;
+}
+@media screen and (max-width:480px){
+    .navbar-list{
+        display: none;
+    }
+    .navbar-button{
+        display: none;
+    }
+    .contact-button{
+        padding: 5px 10px;
+        width: 6rem;
+    }
+}

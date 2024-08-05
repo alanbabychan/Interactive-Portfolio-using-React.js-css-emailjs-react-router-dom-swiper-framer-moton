@@ -1,0 +1,39 @@
+.project {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 80vh;
+}
+
+.project span:nth-of-type(1) {
+    color: var(--black);
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.project span:nth-of-type(2) {
+    color: var(--orange);
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.project .swiper {
+    overflow: visible !important;
+}
+
+.project-slider {
+    margin-top: 3rem;
+    width: 100%;
+}
+
+.project-slider .swiper-slide {
+    width: 20rem;
+}
+
+.project img {
+    width: 19rem;
+    filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.25));
+    border-radius: 19px;
+    height: 10rem;
+}

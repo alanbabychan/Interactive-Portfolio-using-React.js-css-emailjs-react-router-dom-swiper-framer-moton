@@ -20,6 +20,7 @@ function App() {
         background:darkMode ? "#232D3F" : "",
         color:darkMode ? "white":""
       }}
+
     >
       <Navbar />
       <Intro />

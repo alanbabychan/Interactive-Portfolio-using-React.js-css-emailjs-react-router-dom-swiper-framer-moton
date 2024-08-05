@@ -23,7 +23,7 @@ const About = () => {
                 {darkMode ? <div className='navbar-name2'>ALAN BABYCHAN</div> : <div className='navbar-name1'>ALAN BABYCHAN</div>}
                 <span style={{ color: darkMode ? "white" : "" }}>
                    <p>Hey there! I am a dedicated and aspiring student from Munnar. I completed my college education at the
-                    College of Engineering Munnar, where I earned a BTech degree in Computer Science.</p> 
+                    College of Engineering Munnar, where I earned a BTech degree in Computer Science and Engineering.</p> 
                     <p>Throughout my academic journey, I have developed a strong background in various programming languages. I am now
                     eager to leverage my technical skills in a professional setting and take on new challenges and opportunities
                     in the field of computer science.</p> 

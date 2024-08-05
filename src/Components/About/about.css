@@ -92,14 +92,14 @@
 
 .blueCircle {
     background: #1949bb;
-    right: 10px; /* 1cm to the right */
-    top: 10px; /* 1cm down */
+    right: 10px; 
+    top: 10px; 
 }
 
 .yellowCircle {
     background: #f5c32c;
-    right: 10px; /* 1cm to the right */
-    top: calc(8rem + 10px); /* 1cm down */
+    right: 10px; 
+    top: calc(8rem + 10px); 
 }
 
 @media screen and (max-width: 480px) {

@@ -7,7 +7,7 @@
 
 ## Technologies Used
 
-- **eact.js**: Framework for building the frontend.
+- **React.js**: Framework for building the frontend.
 - **Framer Motion**: Used for creating animations and transitions.
 - **Swiper**: Used for creating modern touch sliders with hardware-accelerated transitions
 - **react-router-dom**:  library used for routing in React applications.

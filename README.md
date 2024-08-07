@@ -23,7 +23,8 @@
 
 ## Deployment
 
-This portfolio is not deployed yet. This project was guided project and made it while learning React.js.
-To see the working of this project : https://www.youtube.com/watch?v=JM0EAW4msWg
-My current deployed portfolio : https://portfolio-alen.vercel.app/
+- This portfolio is not deployed yet. This project was guided project and made it while learning React.js.
+- To see the working of this portfolio project : https://www.youtube.com/watch?v=JM0EAW4msWg
+- To see my current deployed portfolio : https://portfolio-alen.vercel.app/
+
  

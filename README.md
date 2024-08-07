@@ -1,5 +1,5 @@
 
-# My Personal Portfolio
+# INTERACTIVE PORTFOLIO 
 
 ## Overview
 
